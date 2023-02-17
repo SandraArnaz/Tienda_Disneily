@@ -13,6 +13,12 @@
 </head>
 <body>
 
+    <header class="header-style-1">
+
+        <?php include('comun/top_header.php');?>
+        <?php include('comun/nav_header.php');?>
+        
+    </header>
 
 
     <!-- jQuery library -->
