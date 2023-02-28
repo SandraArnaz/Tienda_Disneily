@@ -2,7 +2,7 @@
   
     <div class="container-fluid">
 
-        <a class="navbar-brand" href="#">Disney</a>
+        <a class="navbar-brand" href="disney_vista.php">Disney</a>
         <a class="navbar-brand" href="#">Pixar</a>
         <a class="navbar-brand" href="#">Stars Wars</a>
         <a class="navbar-brand" href="#">Marvel</a>
