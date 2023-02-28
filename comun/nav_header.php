@@ -2,10 +2,10 @@
   
     <div class="container-fluid">
 
-        <a class="navbar-brand" href="#">Juguetes</a>
-        <a class="navbar-brand" href="#">Hogar</a>
-        <a class="navbar-brand" href="#">Moda</a>
-        <a class="navbar-brand" href="#">Peliculas</a>
+        <a class="navbar-brand" href="#">Disney</a>
+        <a class="navbar-brand" href="#">Pixar</a>
+        <a class="navbar-brand" href="#">Stars Wars</a>
+        <a class="navbar-brand" href="#">Marvel</a>
 
         <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
