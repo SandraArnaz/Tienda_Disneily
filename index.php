@@ -71,10 +71,10 @@
 
                   <div class="card" style="width: 18rem;">
 
-                     <img src="..." class="card-img-top" alt="...">
+                     <img src="img/productos/Disney/taza_reyleon(1.1).jpg" class="card-img-top" alt="Taza Rey Leon">
 
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Taza del Rey Leon - Hakuna Matata</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                      </div>
@@ -87,11 +87,11 @@
 
                 <div class="card" style="width: 18rem;">
 
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/productos/Stars Wars/sudadera_babeYoda(1.1).jpg" class="card-img-top" alt="Sudadera Baby Yoda">
 
 
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Sudadera de Baby Yoda - Grocu - The Mandalorian</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
@@ -104,10 +104,10 @@
 
                 <div class="card" style="width: 18rem;">
 
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="img/productos/Marvel/guante_spiderman(1.1).jpg" class="card-img-top" alt="Guantes de Spiderman">
 
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Guantes Spiderman - Lanzador</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
