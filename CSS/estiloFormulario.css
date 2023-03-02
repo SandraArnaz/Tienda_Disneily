@@ -1,5 +1,6 @@
-form {
+.enmarcar {
 
+    margin-top: 20px;
     width: 600px;
     padding: 20px;
     border: dotted 1px rgb(105, 105, 235);
@@ -8,5 +9,14 @@ form {
 }
 
 legend{
+
     text-align: center;
+
 }
+
+#formulario2{
+
+    height: 350px;
+    
+}
+

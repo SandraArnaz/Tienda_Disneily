@@ -24,87 +24,89 @@
 
     </header>
 
-    <form action="" method="post" id="formulario1">
-          
-        <legend>Registro </legend>
+    <div class="d-flex justify-content-evenly">
 
-        <div class="mb-3">
-
-            <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="nombre">
-        
-        </div>
-
-        <div class="mb-3">
-
-            <label for="correo" class="form-label">Correo</label>
-            <input type="email" class="form-control" id="correo" aria-describedby="emailHelp">
+        <form action="" method="post" id="formulario1" class="enmarcar">
             
-        </div>
+            <legend>Registro </legend>
 
-        <div class="mb-3">
+            <div class="mb-3">
 
-            <label for="contraseña" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" id="contraseña">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre">
             
-        </div>
+            </div>
 
-        <div class="mb-3">
+            <div class="mb-3">
 
-            <label for="telefono" class="form-label">Teléfono</label>
-            <input type="text" class="form-control" id="telefono">
+                <label for="correo" class="form-label">Correo</label>
+                <input type="email" class="form-control" id="correo" aria-describedby="emailHelp">
+                
+            </div>
 
-        </div>
+            <div class="mb-3">
 
-        <div class="mb-3">
+                <label for="contraseña" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="contraseña">
+                
+            </div>
 
-            <label for="ciudad" class="form-label">Ciudad</label>
-            <input type="text" class="form-control" id="ciudad" >
+            <div class="mb-3">
 
-        </div>
+                <label for="telefono" class="form-label">Teléfono</label>
+                <input type="text" class="form-control" id="telefono">
 
-        <div class="mb-3">
+            </div>
 
-            <label for="codigoPostal" class="form-label">Código Postal</label>
-            <input type="text" class="form-control" id="codigoPostal" >
+            <div class="mb-3">
 
-        </div>
+                <label for="ciudad" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="ciudad" >
 
-        <div class="mb-3 form-check">
+            </div>
 
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Aceptas la política de privacidad</label>
+            <div class="mb-3">
 
-        </div>
+                <label for="codigoPostal" class="form-label">Código Postal</label>
+                <input type="text" class="form-control" id="codigoPostal" >
 
-        <button type="submit" class="btn btn-primary">Registrarme</button>  
+            </div>
 
-    </form>
+            <div class="mb-3 form-check">
 
-    <form action="" method="post" id="formulario2">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Aceptas la política de privacidad</label>
 
-         <legend>Acceso </legend>
+            </div>
 
-        <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Registrarme</button>  
 
-            <label for="correo" class="form-label">Correo</label>
-            <input type="email" class="form-control" id="correo" aria-describedby="emailHelp">
-            
-        </div>
+        </form>
 
-        <div class="mb-3">
+        <form action="" method="post" id="formulario2" class="enmarcar">
 
-            <label for="contraseña" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" id="contraseña">
-            
-        </div>
+            <legend>Acceso </legend>
 
-        <button type="submit" class="btn btn-primary">Acceder</button>
+            <div class="mb-3">
+
+                <label for="correo" class="form-label">Correo</label>
+                <input type="email" class="form-control" id="correo" aria-describedby="emailHelp">
+                
+            </div>
+
+            <div class="mb-3">
+
+                <label for="contraseña" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="contraseña">
+                
+            </div>
+
+            <button type="submit" class="btn btn-primary">Acceder</button>
 
 
-    </form>
+        </form>
 
-
+    </div>
 
       <!-- Popper JS Bootstap -->
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
