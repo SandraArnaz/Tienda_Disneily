@@ -11,7 +11,7 @@
 		$conexion = mysqli_connect($host, $user, $pass, $baseDatos);
 		
 		//Si sucede un error en la conexion, lo mostramos y lo detenemos
-		 if (!$conexion) {
+		 if (!$conexion->set_charset("utf8")) {
 			die("<br>Error de conexion con la base de datos" . mysqli_connect_error());
 		}
 		

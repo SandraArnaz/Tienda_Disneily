@@ -21,6 +21,66 @@
 
     </header>
 
+    <?php 
+
+    include "conexion.php";
+    function getListaUsuarios() {
+		
+    $BD = crearConexion();
+    $sql = "SELECT * FROM productos WHERE idProducto = 1";
+    $resultado = mysqli_query($BD,$sql);
+
+    //Si la consulta devuelve algun valor los devolvemos
+    if (mysqli_num_rows($resultado) > 0) {
+        return $resultado;
+    } else {
+        echo "No hay nada en la lista de usuarios";
+    }
+
+    cerrarConexion($BD);
+    }
+	
+
+	function pintaTablaUsuarios(){
+		
+		$datos = getListaUsuarios();
+
+		//Si hemos recibido el mensaje de error lo imprimimos 
+		if(is_string($datos)) {
+			echo $datos;
+		} else {
+
+			//Construimos tabla
+			echo "<table>\n
+					<tr>
+						<td>Nombre</td>
+						<td>Imagen</td>
+                        <td>Descripción</td>
+					</tr>\n";
+
+			while ($fila = mysqli_fetch_assoc($datos)) {
+				
+					echo "<tr>\n
+							<td>" . $fila["nombreProducto"] . "</td>
+							<td> <img src='". $fila["imagen"] ."' alt=''>  </td>
+                            <td>". $fila["descripción"] ." </td>
+							
+                            
+						</tr>";
+				
+			}
+
+			echo "</table>";
+            
+
+		}
+		
+	} 
+
+    pintaTablaUsuarios();
+    
+    ?>
+
  
 
 
