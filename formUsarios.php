@@ -26,15 +26,15 @@
 
     <div class="d-flex justify-content-evenly">
 
-        <form action="" method="post" id="formulario1" class="enmarcar">
+        <form action="" method="post" name="formulario1" class="enmarcar">
             
             <legend>Registro </legend>
 
             <div class="mb-3">
 
                 <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombre">
-            
+                <input type="text" class="form-control " id="nombre">
+              
             </div>
 
             <div class="mb-3">
@@ -83,7 +83,7 @@
 
         </form>
 
-        <form action="" method="post" id="formulario2" class="enmarcar">
+        <form action="" method="post" name="formulario2" class="enmarcar">
 
             <legend>Acceso </legend>
 
@@ -117,6 +117,9 @@
     <!-- Bootstap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
     <!-- JS -->
     <script src="JS/formularioValidacion.js"></script>

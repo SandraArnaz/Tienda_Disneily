@@ -64,8 +64,7 @@
 							<td>" . $fila["nombreProducto"] . "</td>
 							<td> <img src='". $fila["imagen"] ."' alt=''>  </td>
                             <td>". $fila["descripción"] ." </td>
-							
-                            
+							  
 						</tr>";
 				
 			}
